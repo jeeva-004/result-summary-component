@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgba(224, 219, 219, 0.8);
+    font-family: "Hanken Grotesk", sans-serif;
+    border-radius: 15px;
+    display: flex;
+    margin:100px auto;
+    width:600px;
+}
+
+.item{
+    padding: 10px;
+    flex:1;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    border-radius:15px;
+    background:linear-gradient(to bottom, hsla(252, 100%, 67%,1), hsla(241, 81%, 54%, 1));
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+}
+
+.center{
+    display: flex;
+    width:140px;
+    height: 140px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgba(26, 0, 97,.4), hsla(241, 72%, 46%, 0));
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+#span{
+    font-size: .8em;
+    color: rgba(177, 171, 171,.5);
+}
+
+#last{
+    margin:20px 40px 30px 40px;
+    text-align:center;
+    font-size: .7em;
+    font-weight:500;
+    color: rgba(177, 171, 171,1);  
+}
+
+.two{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: rgba(224, 219, 219, 1.5);
+    border-radius: 15px;
+}
+.two img{
+    margin-right: 5px;    
+}
+
+.two .same{
+    margin-right: 15px;
+}
+
+.second{
+    font-size: .8em;
+    display: flex;
+    flex-direction: row;
+}
+
+.second div{
+    margin:0px 0 35px 0;
+}
+
+.s1 div{
+    align-self: start;
+
+}
+
+.color{
+    color: rgba(177, 171, 171,1);  
+}
+
+
+.s2 div{
+    margin-top:8px;
+    margin-left: 60px;
+}
+
+button{
+    width:250px;
+    padding: 10px;
+    color:whitesmoke;
+    border-radius:20px;
+    position: relative;
+    bottom: 28px;
+    background-color: rgba(3, 3, 49,.8);
+    font-size: 1.2em;
+    font-weight: 500;
+
+}
+
+@media all and (width:320px) {
+    .container{
+        width: 300px;
+        margin:15px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    button{
+        padding: 5px;
+        width:250px;
+    }
+}
